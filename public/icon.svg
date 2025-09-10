@@ -1,0 +1,29 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sky background gradient -->
+  <defs>
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7dd3fc" />
+      <stop offset="100%" stop-color="#0ea5e9" />
+    </linearGradient>
+  </defs>
+
+  <!-- Circular background -->
+  <circle cx="256" cy="256" r="256" fill="url(#skyGradient)"/>
+
+  <!-- Balloon -->
+  <g transform="translate(155, 100)">
+    <!-- Balloon body -->
+    <path d="M100,0 C155.228,0 200,44.772 200,100 C200,135 180,165 150,185 C130,198 115,210 110,230 L90,230 C85,210 70,198 50,185 C20,165 0,135 0,100 C0,44.772 44.772,0 100,0 Z" fill="#ef4444" stroke="#b91c1c" stroke-width="6"/>
+
+    <!-- Balloon highlight -->
+    <ellipse cx="70" cy="70" rx="40" ry="30" fill="#f87171" transform="rotate(-15, 70, 70)"/>
+
+    <!-- Balloon string -->
+    <path d="M100,230 Q110,280 90,320 Q105,330 90,340 Q100,350 85,360 Q95,370 100,380" fill="none" stroke="#1e293b" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <!-- Letter H - stylized -->
+  <g transform="translate(210, 170)">
+    <path d="M10,0 L10,70 M10,35 L40,35 M40,0 L40,70" stroke="#ffffff" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>
